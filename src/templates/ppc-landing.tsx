@@ -48,49 +48,50 @@ const EventPage: Template<TemplateRenderProps> = ({
   document,
 }: TemplateProps) => {
   return (
-//     <PageLayout backgroundColor="#FFFFFF">
-//       <HeaderSimple
-//         logo={`https://a.mktgcdn.com/p-sandbox/nmnGsL23rnIAqGIkx0J1Jej4Bdh-i7zlbjADi08Qfd8/1500x1100.jpg`}
-//       />
-//       <CenteredContainer>
-//         <GridContainer>
-//           <VStack>
-//             <Headline
-//               value={`${document.name}`}
-//               textSize="3xl"
-//               fontWeight="semibold"
-//             />
-//             <Paragraph
-//               value={`${document.description}`}
-//               textSize="base"
-//               fontWeight="normal"
-//             />
-//             <Headline
-//               value={`${document.c_title_arden}`}
-//               textSize="xl"
-//               fontWeight="medium"
-//       />
-//           // </VStack>
-//           // <ProductImage
-//           //   src={`${document.photoGallery[0].image.url}`}
-//           //   alt="Light green backpack with black canvas straps and front zipper pouch."
-//           // />
-//         </GridContainer>
-//         // <FAQsAccordion
-//         //   faqs={[
-//         //     {
-//         //       question: `${document.c_featuredFAQs[0].question}`,
-//         //       answer: `${document.c_featuredFAQs[0].answer}`,
-//         //     },
-//         //     {
-//         //       question: `${document.c_featuredFAQs[1].question}`,
-//         //       answer: `${document.c_featuredFAQs[1].answer}`,
-//         //     },
-//         //   ]}
-//         //   title={`Häufig gestellte Fragen`}
-//         // />
-//       </CenteredContainer>
-//     </PageLayout>
+    <>Hi</>
+    //     <PageLayout backgroundColor="#FFFFFF">
+    //       <HeaderSimple
+    //         logo={`https://a.mktgcdn.com/p-sandbox/nmnGsL23rnIAqGIkx0J1Jej4Bdh-i7zlbjADi08Qfd8/1500x1100.jpg`}
+    //       />
+    //       <CenteredContainer>
+    //         <GridContainer>
+    //           <VStack>
+    //             <Headline
+    //               value={`${document.name}`}
+    //               textSize="3xl"
+    //               fontWeight="semibold"
+    //             />
+    //             <Paragraph
+    //               value={`${document.description}`}
+    //               textSize="base"
+    //               fontWeight="normal"
+    //             />
+    //             <Headline
+    //               value={`${document.c_title_arden}`}
+    //               textSize="xl"
+    //               fontWeight="medium"
+    //       />
+    //           // </VStack>
+    //           // <ProductImage
+    //           //   src={`${document.photoGallery[0].image.url}`}
+    //           //   alt="Light green backpack with black canvas straps and front zipper pouch."
+    //           // />
+    //         </GridContainer>
+    //         // <FAQsAccordion
+    //         //   faqs={[
+    //         //     {
+    //         //       question: `${document.c_featuredFAQs[0].question}`,
+    //         //       answer: `${document.c_featuredFAQs[0].answer}`,
+    //         //     },
+    //         //     {
+    //         //       question: `${document.c_featuredFAQs[1].question}`,
+    //         //       answer: `${document.c_featuredFAQs[1].answer}`,
+    //         //     },
+    //         //   ]}
+    //         //   title={`Häufig gestellte Fragen`}
+    //         // />
+    //       </CenteredContainer>
+    //     </PageLayout>
   );
 };
 export default EventPage;
