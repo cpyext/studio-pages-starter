@@ -2,15 +2,7 @@
   "features": [
     {
       "name": "ppc-landing",
-      "streamId": "my-stream-id-1",
-      "templateType": "JS",
-      "entityPageSet": {
-        "plugin": {}
-      }
-    },
-    {
-      "name": "product",
-      "streamId": "skis",
+      "streamId": "my-stream-id-4",
       "templateType": "JS",
       "entityPageSet": {
         "plugin": {}
@@ -19,7 +11,7 @@
   ],
   "streams": [
     {
-      "$id": "my-stream-id-1",
+      "$id": "my-stream-id-4",
       "localization": {
         "locales": [
           "en_GB"
@@ -32,40 +24,8 @@
         ]
       },
       "fields": [
-        "name",
-        "richTextDescriptionV2",
-        "c_whystudy",
-        "c_title_arden",
-        "c_desc_arden",
-        "c_image_arden",
-        "shortDescriptionV2",
-        "c_course",
-        "c_startJourney",
-        "c_footerImage",
-        "slug",
         "logo",
-        "websiteUrl",
-        "landingPageUrl"
-      ]
-    },
-    {
-      "$id": "skis",
-      "filter": {
-        "entityTypes": [
-          "ce_product"
-        ]
-      },
-      "localization": {
-        "locales": [
-          "en"
-        ],
-        "primary": false
-      },
-      "fields": [
         "name",
-        "c_price",
-        "description",
-        "photoGallery",
         "slug"
       ]
     }
