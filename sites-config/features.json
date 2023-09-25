@@ -1,20 +1,53 @@
 {
   "features": [
     {
+      "name": "ppc-landing",
+      "streamId": "my-stream-id-1",
+      "templateType": "JS",
+      "entityPageSet": {
+        "plugin": {}
+      }
+    },
+    {
       "name": "product",
       "streamId": "skis",
       "templateType": "JS",
-      "entityPageSet": {}
-    },
-    {
-       
-      "name": "ppc_landing",
-      "streamId": "my-stream-id-1",
-      "templateType": "JS",
-      "entityPageSet": {}
+      "entityPageSet": {
+        "plugin": {}
+      }
     }
   ],
   "streams": [
+    {
+      "$id": "my-stream-id-1",
+      "localization": {
+        "locales": [
+          "en_GB"
+        ],
+        "primary": false
+      },
+      "filter": {
+        "entityTypes": [
+          "ce_ppcLanding"
+        ]
+      },
+      "fields": [
+        "name",
+        "richTextDescriptionV2",
+        "c_whystudy",
+        "c_title_arden",
+        "c_desc_arden",
+        "c_image_arden",
+        "shortDescriptionV2",
+        "c_course",
+        "c_startJourney",
+        "c_footerImage",
+        "slug",
+        "logo",
+        "websiteUrl",
+        "landingPageUrl"
+      ]
+    },
     {
       "$id": "skis",
       "filter": {
@@ -35,33 +68,6 @@
         "photoGallery",
         "slug"
       ]
-    },
-    {
-    "$id": "my-stream-id-1",
-      "localization": {
-        "locales": ["en"], "primary": false
-        },
-      "fields": [
-      "name",
-      "richTextDescriptionV2",
-      "c_whystudy",
-      "c_title_arden",
-      "c_desc_arden",
-      "c_image_arden",
-      "shortDescriptionV2",
-      "c_course",
-      "c_startJourney",
-      "c_footerImage",
-      "slug",
-      "logo",
-      "websiteUrl",
-      "landingPageUrl"
-      ],
-      "filter": {
-        "entityTypes": [
-          "ce_ppc_landing"
-        ]
-      }
     }
   ]
 }
