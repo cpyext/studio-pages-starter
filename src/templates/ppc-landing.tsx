@@ -6,13 +6,14 @@ import {
   TemplateRenderProps,
 } from "@yext/pages";
 import HeaderSimple from "../components/HeaderSimple";
+import Label from "../components/Label";
 
 export const config: TemplateConfig = {
   stream: {
-    $id: "my-stream-id-1",
+    $id: "my-stream-id-4",
     localization: { locales: ["en_GB"], primary: false },
     filter: { entityTypes: ["ce_ppcLanding"] },
-    fields: ["logo", "slug"],
+    fields: ["logo", "name", "slug"],
   },
 };
 export const getPath: GetPath<TemplateProps> = ({
@@ -24,10 +25,13 @@ const EventPage: Template<TemplateRenderProps> = ({
   document,
 }: TemplateProps) => {
   return (
-    <HeaderSimple
-      backgroundColor="#FFFFFF"
-      logo={`${document.logo.image.url}`}
-    />
+    <>
+      <HeaderSimple
+        backgroundColor="#FFFFFF"
+        logo={`${document.logo.image.url}`}
+      />
+      <Label value={`Label ${document.name}`} />
+    </>
   );
 };
 export default EventPage;
